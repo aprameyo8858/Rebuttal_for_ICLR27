@@ -24,7 +24,7 @@ if [ "$NORM_LAYER" != "lnchw" ]; then
 fi
 
 echo "=================================================================="
-echo " Starting 4-GPU Parallel Full Pipeline"
+echo " Starting ${NUM_GPUS}-GPU Parallel Full Pipeline"
 echo " GPUs: ${GPUS[*]} | C&W Eval Size: ${EVAL_SIZE} | C&W Batch Size: ${CW_BATCH_SIZE} | Norm: ${NORM_LAYER}"
 echo "=================================================================="
 
